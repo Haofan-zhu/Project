@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+
+}
+.header a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+}
+html,body {
+  min-width: 1200px;
+}
+
+
+.gg {
+  height: 40px;
+  background-color: #444;
+}
+
+.gg .cantain {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.gg .cantain span{
+  float: right;
+  line-height: 40px;
+  color: #fff;
+}
+.nav {
+  height: 44px;
+  background: rgba(45, 45, 45,.98);
+  color: #fff;
+  line-height: 44px;
+}
+.nav .cantain {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  background: url(../img/logo.svg) no-repeat center;
+}
+.search {
+  width: 120px;
+  height: 44px;
+  background: url(../img/search.svg) no-repeat center;
+
+}
+
+.bag {
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  background: url(../img/bag.svg) no-repeat center;
+}
+
+.text {
+  width: 120px;
+  display: inline-block;
+  text-align: center;
+}
+.logo,.text {
+  float: left;;
+}
+.search , .bag {
+  float: right;
+}
+
+.digou{
+  margin-top: 84px;
+  text-align: center;
+  width: 100%;
+}
+.violator-frameless{
+  color: #bf4800;
+}
+.product>div>a {
+  color: aqua;
+}
+.product{
+  width: 100%;
+  height: 500px;
+  color: #fff;
+  background-color: #000;
+}
+.product-img {
+  width:1156px; 
+  height: 535px;
+  background-size: 796px 535px;
+  background: url(../img/product-two.jpg)no-repeat center;
+}
+.digou>p {
+  text-align: center;
+  height: 44px;
+  background: #fafafa;
+  line-height: 44px;
+  font-size: 13px;
+}
